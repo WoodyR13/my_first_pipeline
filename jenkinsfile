@@ -4,7 +4,12 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Im Sulayman' 
-            }
+        },
+        }
+        stage('Stage 2') {
+        	steps {
+        		echo 'This is an Edit made by Woody'
+        	}
         }
     }
 }
